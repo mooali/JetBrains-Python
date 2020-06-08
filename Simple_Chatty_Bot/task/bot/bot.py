@@ -35,11 +35,11 @@ def test():
     print("Let's test your programming knowledge.")
     # write your code here
     print("Why do we use methods?")
-    answer = int(input())
     print("1. To repeat a statement multiple times.")
     print("2. To decompose a program into several small subroutines.")
     print("3. To determine the execution time of a program.")
     print("4. To interrupt the execution of a program.")
+    answer = int(input())
     if answer == 2:
         print('Completed, have a nice day!')
     else:
